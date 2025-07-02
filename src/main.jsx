@@ -3,7 +3,7 @@ import './index.css'
 import App from './App.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'
-import {Store} from './store/Store.js'
+import {Store} from './store/store.js'
 import {MainPage,PlayContainer} from "./pages/index.js"
 
 const router = createBrowserRouter([
